@@ -1,0 +1,39 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Users/adity/Desktop/Assignment_CompArch/Pipelinedprocessor/test_fixture_isim_beh.exe -prj C:/Users/adity/Desktop/Assignment_CompArch/Pipelinedprocessor/test_fixture_beh.prj work.test_fixture work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/adity/Desktop/Assignment_CompArch/Pipelinedprocessor/IMem.v" into library work
+Analyzing Verilog file "C:/Users/adity/Desktop/Assignment_CompArch/Pipelinedprocessor/SignExtend.v" into library work
+Analyzing Verilog file "C:/Users/adity/Desktop/Assignment_CompArch/Pipelinedprocessor/Rfile.v" into library work
+Analyzing Verilog file "C:/Users/adity/Desktop/Assignment_CompArch/Pipelinedprocessor/if_id.v" into library work
+Analyzing Verilog file "C:/Users/adity/Desktop/Assignment_CompArch/Pipelinedprocessor/IFetch.v" into library work
+Analyzing Verilog file "C:/Users/adity/Desktop/Assignment_CompArch/Pipelinedprocessor/id_ex.v" into library work
+Analyzing Verilog file "C:/Users/adity/Desktop/Assignment_CompArch/Pipelinedprocessor/forwardingunit.v" into library work
+Analyzing Verilog file "C:/Users/adity/Desktop/Assignment_CompArch/Pipelinedprocessor/ex_wb.v" into library work
+Analyzing Verilog file "C:/Users/adity/Desktop/Assignment_CompArch/Pipelinedprocessor/control.v" into library work
+Analyzing Verilog file "C:/Users/adity/Desktop/Assignment_CompArch/Pipelinedprocessor/ALU_Block.v" into library work
+Analyzing Verilog file "C:/Users/adity/Desktop/Assignment_CompArch/Pipelinedprocessor/processor.v" into library work
+Analyzing Verilog file "C:/Users/adity/Desktop/Assignment_CompArch/Pipelinedprocessor/test_fixture.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module IMem
+Compiling module IFetch
+Compiling module if_id
+Compiling module Rfile
+Compiling module control
+Compiling module SignExtend
+Compiling module id_ex
+Compiling module ALU_Block
+Compiling module ex_wb
+Compiling module forwardingunit
+Compiling module processor
+Compiling module test_fixture
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 13 Verilog Units
+Built simulation executable C:/Users/adity/Desktop/Assignment_CompArch/Pipelinedprocessor/test_fixture_isim_beh.exe
+Fuse Memory Usage: 28504 KB
+Fuse CPU Usage: 1233 ms
